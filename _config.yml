@@ -1,0 +1,102 @@
+### Site Settings ###
+title               : pterabyte
+description         : >-
+                      Documentation for my homelab setup, use
+                      cases, and testing with docker on TrueNAS, 
+                      hoping someone finds it useful:smile:.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : "pterabyte-dev/pterabyte-dev.github.io"    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+# remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+### Plugins ###
+url: "https://pterabyte.dev"
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/about.md
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+### Author Info ###
+author:
+  name              : Daniel
+  image             : https://avatars.githubusercontent.com/u/209800827?v=4
+# behance           : your_username
+# dribbble          : your_username
+  email             : info@pterabyte.dev
+# facebook          : your_username
+  github            : pterabyte-dev
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+# linkedin          : 
+# medium            : 
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# twitter           : your_username
+# vimeo             : your_username
+  youtube           : pterabyte
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Disqus ###
+disqus:
+ shortname: dosborne-me                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: true                                        # Set true to enable analytics
+  google:
+    tracking_id: G-TXYW9BW0GP
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+# buymeacoffee:
+#   enabled: false
+#   username: your_username
+#   color: "#007bff"
+#   message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+#   description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
