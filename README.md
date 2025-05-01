@@ -7,5 +7,5 @@
   •
   
   <a href="https://pterabyte.dev"><img src="pterabyte-index.png"></a>
-  <sub><sup>© 2025 pterabyte.dev.</sup></sub>
+  <sub><sup>© 2025 pterabyte.dev</sup></sub>
 </div>
