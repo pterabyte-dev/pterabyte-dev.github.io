@@ -3,7 +3,7 @@ title               : pterabyte
 description         : >-
                       Documentation for my homelab setup, use
                       cases, and testing with docker on TrueNAS, 
-                      hoping someone finds it useful:smile:.
+                      hoping someone finds it useful :smile:.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : "pterabyte-dev/pterabyte-dev.github.io"    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 # remote_theme        : YoussefRaafatNasry/portfolYOU
