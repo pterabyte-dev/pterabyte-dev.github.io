@@ -3,6 +3,7 @@
  tags: [GitHub Pages, Jekyll]
  color: secondary
  description: How to build a static website with Jekyll using GitHub Pages
+ comments: true
 ---
 {%- assign assets = "/" | append: site.baseurl | append: "assets/posts/" | append:  page.path | replace: ".md","" | replace: "_posts/","" -%}
 ![]({{ assets }}/heroimg.jpg)
