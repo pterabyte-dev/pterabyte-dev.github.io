@@ -60,8 +60,8 @@ collections:
 
 
 ### Disqus ###
-#disqus:
- #shortname: dosborne-me                     # Your website Shortname on disqus
+disqus:
+ shortname: pterabyte-dev                     # Your website Shortname on disqus
 
 
 ### Analytics ###

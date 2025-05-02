@@ -1,10 +1,12 @@
 ---
  title: Hello World!
- tags: [Home Lab,Github Pages]
+ tags: []
+ color: primary
  description: Look at that, a new site where I can share my configurations, testing, and thoughts on different topics relating to Docker, TrueNAS, networking, and home lab in general
+ comments: true
 ---
-
-![](https://raw.githubusercontent.com/pterabyte-dev/pterabyte-dev.github.io/refs/heads/main/assets/posts/2025-05-01-Hello-World!/heroimg.png)
+{%- assign assets = "/" | append: site.baseurl | append: "assets/posts/" | append:  page.path | replace: ".md","" | replace: "_posts/","" -%}
+![]({{ assets }}/heroimg.png)
 
 **Hello Everyone!** 
 
@@ -24,4 +26,4 @@ Posts and topics will closely be related to things that I am testing and deployi
 
 I also will be sharing docker-compose files and different scripts I create along the way. My one goal here is to share the information I have that I wish I had when I originally ran into an issue, in hopes that someone will find it useful.
 
-
+{{ assets }}
