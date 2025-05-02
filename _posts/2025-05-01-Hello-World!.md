@@ -25,5 +25,3 @@ Posts and topics will closely be related to things that I am testing and deployi
 * Managing Custom Applications on TrueNAS
 
 I also will be sharing docker-compose files and different scripts I create along the way. My one goal here is to share the information I have that I wish I had when I originally ran into an issue, in hopes that someone will find it useful.
-
-{{ assets }}
