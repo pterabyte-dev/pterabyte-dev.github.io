@@ -10,6 +10,14 @@
 
 **Hello Everyone!** 
 
+{% raw %}
+{% capture carousel_images %}
+https://bit.ly/2BBbVhc
+https://bit.ly/2DOtxXB
+{% endcapture %}
+{% include elements/carousel.html %}
+{% endraw %}
+
 The purpose of this site is to share different configurations, testing, and thoughts I may have on topics relating to technology and things I am currently messing around with in my home lab. Primary topics will include docker apps, docker configurations, networking, TrueNAS, etc. Based on the my previous statement, it would be easy to guess that I am currently using docker-compose and TrueNAS in my home lab.
 
 ## How Was This Site Made?
