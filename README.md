@@ -6,6 +6,6 @@
   <a href="https://pterabyte.dev">Website</a>
   •
   
-  <a href="https://pterabyte.dev"><img src="pterabyte-index.png"></a>
+  <a href="https://pterabyte.dev"><img src="pterabyte-dev.gif"></a>
   <sub><sup>© 2025 pterabyte.dev</sup></sub>
 </div>
